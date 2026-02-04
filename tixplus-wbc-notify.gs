@@ -126,8 +126,8 @@ function formatLineMessage(ticketList) {
  * LINE Push Message
  **************************************/
 function sendLinePushMessage(messageText) {
-  const CHANNEL_ACCESS_TOKEN = PropertiesService.getScriptProperties().getProperty("CHANNEL_ACCESS_TOKEN")
-  const LINE_USER_ID = PropertiesService.getScriptProperties().getProperty("LINE_USER_ID")
+  const CHANNEL_ACCESS_TOKEN = PropertiesService.getScriptProperties().getProperty("wn/XM8fe4+wV3Bnar7CmRRPII7HijjVJ+oCmvo+7mgaA6SkwdVwkuoyPW9QLHnIAwUCkWVlSHtSZQHV6OSvHLGqWPmuz6I3JHWC7qAoh48Vqj8LipeQ1qlIu0fv6Zx4U40sSyT0HtNq4qbD8WGmnGAdB04t89/1O/w1cDnyilFU=")
+  const LINE_USER_ID = PropertiesService.getScriptProperties().getProperty("Ub82d05d7d5ac50218fed99e100f99c29")
 
   const url = "https://api.line.me/v2/bot/message/push"
 
